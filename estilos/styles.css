@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    color: black;
+    font-family: "Roboto","Open Sans","Roboto", monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+h2{
+    padding: 20px;
+}
+.main{
+    width: 320px;
+    height: auto;
+    background: #c0c0c0;
+}
+#num1{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+#num2{
+    width: 40px;
+    height: 40px;
+}
+#op{
+    width: 80px;
+    height: 40px;
+}
+button{
+    background-color: #FF6347;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color:cornsilk;
+}    
