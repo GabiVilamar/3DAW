@@ -1,8 +1,8 @@
 <?php
 
-$x = $_POST["num1"];
-$y = $_POST["num2"];
-$op = $_POST["operacao"];
+$x = $_GET["num1"];
+$y = $_GET["num2"];
+$op = $_GET["operacao"];
 
 if($op=="SOMA")
  $z = $x + $y;
@@ -16,4 +16,5 @@ elseif($op=="MULTIPLICAÇÃO")
 else
   $z = $x/$y;
 
-echo "O resultado e: $z";
+echo "O resultado é: $z";
+?>
